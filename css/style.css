@@ -91,11 +91,10 @@ li{
 
   
    /* очищает крайнюю геометрию */
-  .site-nav .item:not(:last-child)
-  {
-       margin-right: 50px; 
-  } 
   
+   .item:last-child{
+    margin-right: 0;
+}
 
   
 .text-studio{
@@ -170,9 +169,7 @@ li{
   
    
        
-   .contacts-header.item:last-child{
-       margin-right: 0;
-   }
+   
 
   .mail-header{
     
@@ -220,15 +217,15 @@ li{
 
 padding-top: 200px;
 padding-bottom: 200px;
-/* background-color: var( --black-grey); */
-background-color: rgba(47, 48, 58, 0.4);
- background-image: url(/img/baground-hero/hero.jpg);
- background-position: center;
- 
- /* max-width: 1600px; */
- /* background-size: contain; */
+background-image: radial-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+     url(/img/baground-hero/hero.jpg);
+    
+  /* max-width: 1600; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-}
+ }
 
  .banner__text{
     
@@ -682,6 +679,11 @@ margin-top: calc(-1 * var(--presentation-set));
 
   
 }
+
+.presintation-item:hover{
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
     
   
 .inner-text-present{
@@ -707,11 +709,7 @@ margin-top: calc(-1 * var(--presentation-set));
     letter-spacing: 0.06em;
      
      color: var(--black);
-     
-     
-    
-
-    }
+}
 
     .cards-portfolio{
         display: block;
