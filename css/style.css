@@ -169,7 +169,12 @@ li{
   
    
        
-   
+   .mail{
+       display: block;
+       fill: #303030;
+       padding-top: 32px;
+
+   }
 
   .mail-header{
     
