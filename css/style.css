@@ -38,6 +38,7 @@ li{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
 /* Header */
 
 
@@ -167,7 +168,24 @@ li{
     margin-right: 50px;
 }
   
-   
+   .icon-mail{
+ 
+    margin-right: 10px;
+
+    
+    }
+
+   .icon-mail:hover{
+       fill:  #2196F3;
+   }
+
+   .icon-phfone{
+       margin-right: 10px;
+   }
+
+
+
+  
        
    .mail{
        display: block;
@@ -207,6 +225,7 @@ li{
          color: var(--grey);
          
     }
+    
     
     
     .tel-header:hover{
@@ -276,6 +295,51 @@ background-image: radial-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
 /* /banner */
 
 /* feature */
+
+.section.section-features{
+    padding-top: 94px;
+    padding-bottom: 0px;
+}
+
+.features-icon{
+    display: flex;
+    
+  
+}
+
+.item-icon{
+   width: 270px;
+   height: 120px;
+   margin-right: 30px;
+   background-color:#F5F4FA;
+ 
+
+  }
+
+.icons-features{
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.item-icon:last-child{
+    margin-right: 0px;
+}
+
+.clock-icon{
+  margin-right: 102px;
+  margin-left: 102px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.icon-diagram{
+    margin-right: 102px;
+    margin-left: 102px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
 .features{
     display: flex;
