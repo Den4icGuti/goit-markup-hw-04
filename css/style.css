@@ -168,16 +168,14 @@ li{
     margin-right: 50px;
 }
   
-   .icon-mail{
+   .icon-right{
  
     margin-right: 10px;
 
     
     }
 
-   .icon-mail:hover{
-       fill:  #2196F3;
-   }
+   
 
    .icon-phfone{
        margin-right: 10px;
@@ -189,10 +187,23 @@ li{
        
    .mail{
        display: block;
-       fill: #303030;
+      
        padding-top: 32px;
 
    }
+   .mail-header:hover{
+    fill: var(--blue);
+   }
+   .mail-header:hover{
+    color: var(--blue);
+}
+
+
+    /* .mail-header:hover.icon-right,
+    .mail-header:focus.icon-right
+    {
+        fill: var(--blue);
+    } */
 
   .mail-header{
     
@@ -207,10 +218,7 @@ li{
     color:var(--grey);
 }
     
-    .mail-header:hover{
-        color: var(--blue);
-    }
-    
+   
     
     .tel-header{
         
@@ -226,13 +234,19 @@ li{
          
     }
     
-    
-    
+    .tel-header:hover{
+        fill: var(--blue);
+    }
+
     .tel-header:hover{
         color: var(--blue);
     }
     
 
+   .tel-header:hover.icon-right,
+   .tel-header:hover.icon-right{
+       fill: var(--blue);
+   }
 
 /* Page-1/index.html */
 
@@ -498,9 +512,112 @@ margin-right: 30px;
     text-align: center;
     letter-spacing: 0.03em;
 
-  color: var(--grey);
+     color: var(--grey);
+
+     margin-bottom: 16px;
+}
+
+
+.social-set{
+    display: flex;
+    justify-content: center;
+}
+
+.item-socials{
+    fill: #AFB1B8;
+}
+
+.item-social{
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
 
 }
+
+.item-social:last-child{
+    margin-right: 0;
+}
+
+
+.social-link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:#ffffff;
+    /* margin-right: 10px; */
+
+    
+}
+
+.social-link:hover{
+    background-color: var(--blue);
+   
+}
+
+.social-link:hover .item-socials,
+.social-link:focus .item-socials
+{
+  /* background-color:  #2196F3;   */
+  fill:var(--white);
+  
+}
+
+
+/* Claients
+============= */
+.clients{
+    display: flex;
+    /* justify-content: center; */
+}
+
+
+
+.item-clients{
+    margin-right: 30px;
+    width: 170px;
+    height: 92px;
+   
+   
+}
+.link-company{
+    display: block;
+    width: 100%;
+    height: 100%;
+  
+    border: solid 1px #AFB1B8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.link-company:hover{
+ border: solid 1px #188CE8;
+ 
+}
+
+.icon-company:hover 
+{
+    fill: #188CE8;
+}
+
+.item-clients:last-child{
+    margin-right: 0px;
+}
+
+.icon-company{
+ margin-left: 32px;
+ margin-top: 16px;
+ fill:  #AFB1B8;    
+}
+
+
+
+
+
+
 /* /Team Work */
 /* page-1/index.html */
 
