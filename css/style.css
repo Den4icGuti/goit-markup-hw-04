@@ -235,7 +235,7 @@ li{
    .tel-header:hover, 
    .tel-header:focus
    {
-       fill: var(--blue);
+       fill: currentColor;
    }
 
 /* Page-1/index.html */
