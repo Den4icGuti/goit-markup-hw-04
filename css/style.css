@@ -168,26 +168,24 @@ li{
       
 }
 
+.tel-header{
+    display: flex;
+    align-items: center;
+}
+
 .item{
     margin-right: 50px;
 }
   
-   .icon-right{
-   
+   .icon-right {
     margin-right: 10px;
-}
-
-   .icon-phfone{
-       margin-right: 10px;
    }
 
-
-  .mail{
-       display: block;
-      
-       padding-top: 32px;
-
+   .mail-header{
+       display: flex;
+       align-items: center;
    }
+
    .mail-header:hover,
    .mail-header:focus
    {
@@ -197,16 +195,9 @@ li{
    .mail-header:focus
    {
     color: var(--blue);
-}
+   }
 
-
-    /* .mail-header:hover.icon-right,
-    .mail-header:focus.icon-right
-    {
-        fill: var(--blue);
-    } */
-
-  .mail-header{
+ .mail-header{
     
     font-style: normal;
     font-weight: 500;
@@ -219,9 +210,7 @@ li{
     color:var(--grey);
 }
     
-   
-    
-    .tel-header{
+   .tel-header{
         
         font-style: normal;
         font-weight: 500;
@@ -324,6 +313,7 @@ background-image: radial-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
    width: 270px;
    height: 120px;
    margin-right: 30px;
+   
    background-color:#F5F4FA;
    border-radius: 4px;
    margin-bottom: 30px;
@@ -335,23 +325,6 @@ background-image: radial-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
   margin-top: 25px;
 }
 
-/* .item-icon:last-child{
-    margin-right: 0px;
-}
-
-.clock-icon{
-
-  margin-left: 102px;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
-.icon-diagram{
-  
-    margin-left: 102px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-} */
 
 .features{
     display: flex;
